@@ -9,7 +9,7 @@ function theBeatlesPlay (musicians, instruments){
 
 function johnLennonFacts (facts){
   while(facts > 0){
-    facts.unshift ("!!!")
+    facts.splce (0,4"!!!")
   }
 return facts
 }
