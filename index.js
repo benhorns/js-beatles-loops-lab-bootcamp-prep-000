@@ -8,7 +8,7 @@ function theBeatlesPlay (musicians, instruments){
 }
 
 function johnLennonFacts (facts){
-let countdown = 4
+let i = 4
   while(countdown > 0){
     facts.push (facts[countdown] + "!!!")
   }
