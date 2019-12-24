@@ -7,12 +7,20 @@ function theBeatlesPlay (musicians, instruments){
   return array
 }
 
-function johnLennonFacts (facts){
-  var data = facts.slice();
-var i = 0
-  while(i < data.length){
-    data[i] += "!!!"
-    i +++
+function johnLennonFacts(facts) {
+//                       ^^^^^
+// your function has to accept the argument here
+
+  var data = facts.slice(); // make a copy of the passed array
+
+  var i = 0;
+
+  while (i < data.length) { // fix misspelled length
+
+    data[i] += '!!!'; // use += to add the !!!
+
+    i++; // increment after adding the !!!
   }
-return data
+
+  return data
 }
