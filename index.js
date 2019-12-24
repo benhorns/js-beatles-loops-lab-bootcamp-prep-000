@@ -15,7 +15,7 @@ function johnLennonFacts(facts) {
 
   var i = 0;
 
-  while (i < data.length) { // fix misspelled length
+  while (i < data.length) { // i is less than the length of the data array run the function and i increases everytime the function is run, when the function runs 5 times the while method ends
 
     data[i] += '!!!'; // use += to add the !!!
 
