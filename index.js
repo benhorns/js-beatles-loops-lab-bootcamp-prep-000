@@ -23,8 +23,10 @@ function johnLennonFacts(facts) {
   }
 
   return data
-} 
+}
 
-function iLoveTheBeatles(){
+function iLoveTheBeatles(num){
+  var array = []
   
+
 }
