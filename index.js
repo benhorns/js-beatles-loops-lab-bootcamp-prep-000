@@ -37,6 +37,6 @@ function iLoveTheBeatles(){
 
   do {
   array.push("I love the Beatles!");
-} while (incrementVariable() < 15);
+} while (incrementVariable() < 16);
 return array;
 }
